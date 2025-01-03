@@ -14,7 +14,7 @@ export default function Chat() {
   };
 
   return (
-    <div className="flex h-[calc(100vh-4rem)] pt-16 bg-gray-900">
+    <div className="flex flex-col md:flex-row h-[calc(100vh-4rem)] pt-16 bg-gray-900">
       <ChatSidebar
         rooms={chatRooms}
         activeRoomId={activeRoomId}

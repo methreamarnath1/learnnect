@@ -10,7 +10,7 @@ interface ChatSidebarProps {
 
 export default function ChatSidebar({ rooms, activeRoomId, onRoomSelect }: ChatSidebarProps) {
   return (
-    <div className="w-80 border-r border-gray-800 h-full bg-gray-900">
+    <div className="w-full md:w-80 border-r border-gray-800 h-full bg-gray-900">
       <div className="p-4">
         <div className="relative mb-4">
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
